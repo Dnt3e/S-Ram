@@ -2,6 +2,7 @@
 
 [![GitHub license](https://img.shields.io/github/license/Dnt3e/S-Ram)](https://github.com/Dnt3e/S-Ram/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/Dnt3e/S-Ram)](https://github.com/Dnt3e/S-Ram/stargazers)
+[![Direct Download](https://img.shields.io/badge/download-script-blue)](https://raw.githubusercontent.com/Dnt3e/S-Ram/main/S-Ram.sh)
 
 **S-Ram** is an intelligent swap space management script for Linux systems (especially Ubuntu) that automates the creation, optimization, and removal of swap space with smart defaults.
 
@@ -18,11 +19,8 @@
 - 🎨 Colorful interactive menu system
 - ✔️ Root permission checking
 
-## Installation
+## Installation & Quick Start
 
-Run the following commands to install S-Ram:
-
+### Method 1: One-line install and run
 ```bash
-wget https://raw.githubusercontent.com/Dnt3e/S-Ram/main/S-Ram -O S-Ram
-chmod +x S-Ram
-sudo ./S-Ram
+wget https://raw.githubusercontent.com/Dnt3e/S-Ram/main/S-Ram.sh -O S-Ram && chmod +x S-Ram && sudo ./S-Ram
